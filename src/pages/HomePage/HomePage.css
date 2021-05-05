@@ -1,0 +1,67 @@
+.home-page {
+  margin: 0%;
+  padding: 0%;
+  height: 100%;
+  background: url(../../imgCover.jpg);
+  background-repeat: no-repeat;
+  background-attachment: local;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.cover-page{
+    width: 100%;
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cover-page-interno{
+    margin-top: 30%;
+    width: 40%;
+}
+.footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.footerInterno {
+    border-top: 1px #2e2e2e2f solid;
+    margin-top: auto;
+    background: #f0efeff0;
+    padding: 1px 0%;
+    color: #443d3d;
+}
+.text-of-description{
+    font-size: 15px;
+    font-family: system-ui;
+}
+.text-titular{
+    font-family: system-ui;
+}
+
+@media  (max-Width: 780px) {
+    .home-page {
+        margin: 0%;
+        padding: 0%;
+        height: 100%;
+        background: url(https://image.freepik.com/foto-gratis/chica-joven-escuchando-musica_23-2147633715.jpg);
+        background-repeat: no-repeat;
+        background-attachment: local;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .cover-page{
+        width: 100%;
+        height: 650px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+    }
+    .cover-page-interno{
+        width: 94%;
+    }
+}
