@@ -9,6 +9,20 @@ const Cover = () => {
           className="w-100 border-0"
         />
       </div>
+      <div className="social">
+        <a href="#">
+          <span className="fab fa-facebook-f icon-favicon"></span>
+        </a>
+        <a href="#">
+          <span className="fab fa-twitter icon-favicon"></span>
+        </a>
+        <a href="#">
+          <span className="fab fa-instagram icon-favicon"></span>
+        </a>
+        <a href="#">
+          <span className="fab fa-youtube icon-favicon"></span>
+        </a>
+      </div>
     </div>
   );
 };
